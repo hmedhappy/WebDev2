@@ -88,10 +88,10 @@ const ages = [
     { age: 55 },
 ];
 // .some & .every 
-console.log(ages.every((element) =>
-{
-    return element.age > 18
-}));
+// console.log(ages.every((element) =>
+// {
+//     return element.age > 18
+// }));
 
 // .replace
 const varrr2 = 'ahmrd';
@@ -117,7 +117,7 @@ const res = ages.filter((e) =>
 {
     return e?.age >= 30;
 });
-console.log(res);
+// console.log(res);
 
 
 
