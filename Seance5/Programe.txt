@@ -1,0 +1,5 @@
+- Revision et Correction de l'exercice de corona App 
+
+- Resume Rapide de callbacks / promises / async / await
+- Utilité des notion des callback / promises / async / await
+- File handling with Event and DOM / comment mettre un 
