@@ -1,25 +1,25 @@
-import { useState } from "react";
 import "./App.css";
-import Component1 from "./components/Component1";
-import logo from "./logo.svg";
-import Monji from "./Monji";
+import State from './Seance7/State';
 
-function App() {
-  const [state, setState] = useState("SALI7A");
+function App()
+{
+  // const [state, setState] = useState("SALI7A");
 
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Monji name={state} name2="monji" />
-        <Component1 ahla="bik">Monjisdjgnkdjn</Component1>
-        <input
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        {/* <Monji name={state} name2="monji" /> */}
+        {/* <Component1 ahla="bik">Monjisdjgnkdjn</Component1> */}
+        {/* <input
           type="text"
-          onChange={(event) => {
+          onChange={(event) =>
+          {
             setState(event.target.value);
           }}
-        />
-        <p>{state}</p>
+        /> */}
+        {/* <p>{state}</p> */}
+        <State />
       </header>
     </div>
   );
