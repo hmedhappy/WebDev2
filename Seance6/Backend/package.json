@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "c'est un setrveur qui fait quemque chose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Ahla bik\" && exit 1",
+    "demarri": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+}

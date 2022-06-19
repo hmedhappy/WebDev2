@@ -48,6 +48,16 @@ export default function NavBar() {
               Ell app elli sna3neha
             </Link>
           </li>
+          <li class="nav-item">
+            <Link class="nav-link" to="/scss">
+              Style App
+            </Link>
+          </li>
+          <li class="nav-item">
+            <Link class="nav-link" to="/scss2">
+              Style App 2
+            </Link>
+          </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
           <input
